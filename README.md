@@ -1,5 +1,5 @@
 # koa2-typescript-webpack-boilerplate
-My personal koa2 boilerplate using TypeScript and Webpack.
+My personal Koa2 boilerplate using TypeScript and Webpack2 .
 
 ```bash
 # Clone source code
@@ -12,4 +12,4 @@ $ yarn start
 $ yarn lint
 ```
 
-Your app should now be running on localhost:8080
+Your app should now be running on localhost:8080.
