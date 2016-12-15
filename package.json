@@ -4,7 +4,8 @@
   "main": "./src/server.ts",
   "scripts": {
     "build": "$(yarn bin)/webpack --progress",
-    "serve": "$(yarn bin)/webpack-dev-server --inline --progress"
+    "start": "node dist/server.bundle.js",
+    "lint": "$(yarn bin)/tslint src/**/*.ts"
   },
   "repository": "https://github.com/chiehwen/koa2-typescript-webpack-boilerplate.git",
   "author": "Chieh-Wen Yang <chuck.yang@hackathon.tw> (http://chiehwenyang.logdown.com/)",

@@ -11,7 +11,6 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'server.bundle.js'
   },
-  watch: true,
   module: {
     loaders: [
       { exclude: /node_modules/ },
