@@ -19,6 +19,7 @@
     "awesome-typescript-loader": "^3.0.0-beta.13",
     "json-loader": "^0.5.4",
     "ts-loader": "^1.3.2",
+    "tslint": "^4.0.2",
     "typescript": "2.1.4",
     "webpack": "v2.1.0-beta.27"
   },
