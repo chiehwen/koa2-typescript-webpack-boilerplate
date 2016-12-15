@@ -19,6 +19,7 @@ module.exports = {
       { test: /\.json$/, use: [{ loader: 'json-loader' }]}
     ]
   },
+  // Enable sourcemaps for debugging webpack's output.
   devtool: "source-map",
   resolve: {
     // Add '.js' and 'ts' as resolvable extensions.
