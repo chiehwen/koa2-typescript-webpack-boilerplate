@@ -2,10 +2,6 @@ import * as Koa from 'koa';
 import * as bodyParser from 'koa-bodyparser';
 import * as chalk from 'chalk';
 
-// old-school
-var fs = require('fs');
-var net = require('net');
-
 import router from './routes';
 
 const app = new Koa();

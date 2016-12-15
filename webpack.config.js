@@ -3,7 +3,7 @@ const webpack = require('webpack');
 const path = require('path');
 
 module.exports = {
-  
+
   entry: './src/server.ts',
   target: 'node',
   output: {
@@ -11,12 +11,13 @@ module.exports = {
     publicPath: '/dist/',
     filename: 'server.bundle.js'
   },
+  watch: true,
   module: {
     loaders: [
+      { exclude: /node_modules/ },
       // All files with a '.ts' extension will be handled
       { test: /\.ts$/, loader: 'ts-loader' },
-      { test: /\.json$/, loader: 'json-loader' },
-      { exclude: path.resolve(__dirname, "node_modules") }
+      { test: /\.json$/, loader: 'json-loader' }
     ]
   },
   devtool: "source-map",
