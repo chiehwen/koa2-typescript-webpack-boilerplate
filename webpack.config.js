@@ -12,11 +12,11 @@ module.exports = {
     filename: 'server.bundle.js'
   },
   module: {
-    loaders: [
+    rules: [
       { exclude: /node_modules/ },
       // All files with a '.ts' extension will be handled
-      { test: /\.ts$/, loader: 'ts-loader' },
-      { test: /\.json$/, loader: 'json-loader' }
+      { test: /\.ts$/, use: [{ loader: 'ts-loader' }]},
+      { test: /\.json$/, use: [{ loader: 'json-loader' }]}
     ]
   },
   devtool: "source-map",
