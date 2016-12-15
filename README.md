@@ -11,3 +11,5 @@ $ yarn start
 # Lint
 $ yarn lint
 ```
+
+Your app should now be running on localhost:8080
