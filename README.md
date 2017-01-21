@@ -6,7 +6,9 @@ My personal Koa2 boilerplate using TypeScript and Webpack2 .
 $ git clone https://github.com/chiehwen/koa2-typescript-webpack-boilerplate.git && cd _
 # Install dependencies
 $ yarn install
-# Start Application
+# Build application
+$ yarn build
+# Start application
 $ yarn start
 # Lint
 $ yarn lint
